@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Vite App</title>
+  </head>
+  <body class="relative">
+    <canvas class="webgl absolute inset-0 z-0"></canvas>
+    <div class="w-screen h-screen mx-auto flex flex-col">
+      <nav class="text-white z-2 relative mx-16 my-14 flex justify-between">
+        <a href="/" class="font-bold">Sphere</a>
+        <ul class="flex gap-8">
+          <li>Explore</li>
+          <li>Create</li>
+        </ul>
+      </nav>
+      <h1 class="text-white z-2 relative mx-auto mt-14 text-6xl title">
+        Give it a spin
+      </h1>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
